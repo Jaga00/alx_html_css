@@ -1,0 +1,64 @@
+body, main {
+    display: flex;
+  }
+  
+  body {
+    flex-direction: column;
+    background-color: #758013;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  header {
+    background-color: #333;
+    color: #085c7e;
+    padding: 10px;
+  }
+  
+  .logo {
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  
+  main {
+    flex-direction: row;
+    flex: auto;
+  }
+  
+  article {
+    flex: 2;
+    background-color: #5c1818;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+  }
+  
+  aside {
+    flex: 1;
+    background-color: #13c6f3;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(5, 35, 39, 0.514);
+    overflow-y: auto;
+  }
+
+  .works_on_smartphone {
+    flex: 1; /* Reset flex proportions */
+    width: 100%; /* Force full width */
+    overflow-y: auto;
+  }
+
+  footer {
+    background-color: #665912;
+    color: #100830;
+    padding: 10px;
+    text-align: left;
+  }
+
+  
+  
+  
+  
+  
