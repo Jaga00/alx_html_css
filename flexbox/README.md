@@ -1,0 +1,2 @@
+Introduction to Flexbox
+Flexbox stands for Flexible Box and is a one-dimensional layout model. It allows you to arrange elements in a row or column, creating a flexible and responsive layout. With Flexbox, you can control the alignment, order, and size of elements within a container, making it easier to design and structure your web page or application.
